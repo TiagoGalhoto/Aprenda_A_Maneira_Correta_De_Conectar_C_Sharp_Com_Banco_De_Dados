@@ -21,6 +21,7 @@ namespace AgendaDeContato
         {
             Cadastrar cad = new Cadastrar(txtNome.Text, txtTelefone.Text);
             MessageBox.Show(cad.Mensagem);
+            MessageBox.Show("");
         }
     }
 }
